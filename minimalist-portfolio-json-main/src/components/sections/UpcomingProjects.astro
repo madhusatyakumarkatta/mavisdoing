@@ -2,13 +2,14 @@
 import Section from "../Section.astro"
 
 import { upcomingProjects } from "@cv"
+const projects = upcomingProjects as any[]
 ---
 
 <Section title="Upcoming Projects" id="upcoming-projects">
   <ul>
     {
-      upcomingProjects && upcomingProjects.length > 0 ? (
-        upcomingProjects.map(
+      projects && projects.length > 0 ? (
+        projects.map(
           ({ url, description, highlights, name, isActive, github }) => {
             return (
               <li>
@@ -33,7 +34,7 @@ import { upcomingProjects } from "@cv"
                     <p>{description}</p>
                   </header>
                   <footer>
-                    {highlights.map((highlight) => {
+                    {(highlights || []).map((highlight: any) => {
                       return <span>{highlight}</span>
                     })}
                   </footer>
