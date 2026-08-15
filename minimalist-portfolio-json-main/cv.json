@@ -1,0 +1,255 @@
+{
+  "basics": {
+    "name": "Madhu Satyakumar",
+    "label": "Software Developer & Founder",
+    "image": "/me.png",
+    "email": "kmadhusatyakumar@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "+2 years of experience in software development and technology. Currently pursuing a B.Tech in Computer Science Engineering and building doing.com, a productivity-focused technology venture. I work across web development, backend engineering, and AI/ML, with hands-on experience building websites, Chrome extensions, data pipelines, and developer-focused solutions. Based in India.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "IN",
+      "region": "India"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "madhusatyakumarkatta",
+        "url": "https://linkedin.com/in/madhusatyakumarkatta"
+      },
+      {
+        "network": "Instagram",
+        "username": "maaveyyy",
+        "url": "https://www.instagram.com/maaveyyy/"
+      },
+      {
+        "network": "GitHub",
+        "username": "madhusatyakumarkatta",
+        "url": "https://github.com/madhusatyakumarkatta"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "doing.com",
+      "position": "Founder",
+      "url": "https://doing.com",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "summary": "Building doing.com, a productivity-focused technology venture designed around helping users take action rather than overthink. Responsible for product ideation, technical development, system design, and experimentation across the project.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Freelance Developer",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "summary": "I work on freelance technology projects across web development, data processing, and digital products. I have developed websites and Chrome extensions, designed digital posters and visual assets, and worked on dataset preparation, cleaning, refinement, and training. I focus on delivering practical solutions while adapting to different technical and project requirements.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Amrita Vishwa Vidyapeetham, Amravati",
+      "url": "",
+      "area": "Computer Science Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2025-01-01",
+      "endDate": "2029-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Resonance Junior College, Hyderabad",
+      "url": "",
+      "area": "Intermediate",
+      "studyType": "Intermediate",
+      "startDate": "2023-01-01",
+      "endDate": "2025-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Kendriya Vidyalaya Sangathan (Delhi, Vizag, Thiruvananthapuram)",
+      "url": "",
+      "area": "Schooling",
+      "studyType": "Schooling",
+      "startDate": "2013-01-01",
+      "endDate": "2023-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "AI/ML",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Backend Development",
+      "level": "Advanced",
+      "keywords": []
+    },
+    {
+      "name": "Data Processing",
+      "level": "Advanced",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Campus Compass",
+      "isActive": true,
+      "description": "Campus Compass is a smart student companion platform designed to help new and existing students navigate every aspect of campus life. It brings together essential information such as campus maps, academic resources, hostel details, transportation, clubs, events, and student services in one intuitive application.",
+      "highlights": [
+        "Student Companion",
+        "Campus Navigation",
+        "Resource Aggregator"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers",
+      "github": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers"
+    }
+  ]
+}
