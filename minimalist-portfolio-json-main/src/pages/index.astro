@@ -2,23 +2,31 @@
 import Layout from "@/layouts/Layout.astro"
 
 import About from "@/components/sections/About.astro"
+import Builds from "@/components/sections/Builds.astro"
 import Education from "@/components/sections/Education.astro"
 import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
+import UpcomingProjects from "@/components/sections/UpcomingProjects.astro"
+import Research from "@/components/sections/Research.astro"
 import Skills from "@/components/sections/Skills.astro"
 
+import NavBar from "@/components/NavBar.astro"
 import { basics } from "@cv"
 const { name, label } = basics
 ---
 
 <Layout title={`Portfolio of ${name} - ${label}`}>
+  <NavBar />
   <main>
     <Hero />
     <About />
     <Experience />
     <Education />
+    <Builds />
     <Projects />
+    <UpcomingProjects />
+    <Research />
     <Skills />
   </main>
 </Layout>

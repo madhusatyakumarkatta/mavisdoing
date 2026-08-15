@@ -1,0 +1,123 @@
+---
+import Section from "../Section.astro"
+
+import { upcomingProjects } from "@cv"
+---
+
+<Section title="Upcoming Projects" id="upcoming-projects">
+  <ul>
+    {
+      upcomingProjects && upcomingProjects.length > 0 ? (
+        upcomingProjects.map(
+          ({ url, description, highlights, name, isActive, github }) => {
+            return (
+              <li>
+                <article>
+                  <header>
+                    <h3>
+                      <a href={url} target="_blank" title={`View project ${name}`}>
+                        {name}
+                      </a>
+                      {isActive && <span>&bull;</span>}
+                      {github && (
+                        <a
+                          class="github-code-link"
+                          href={github}
+                          target="_blank"
+                          title={`View source code for project ${name}`}
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        </a>
+                      )}
+                    </h3>
+                    <p>{description}</p>
+                  </header>
+                  <footer>
+                    {highlights.map((highlight) => {
+                      return <span>{highlight}</span>
+                    })}
+                  </footer>
+                </article>
+              </li>
+            )
+          }
+        )
+      ) : (
+        <p class="placeholder">New projects are actively being built... stay tuned!</p>
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-inline: -16px;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+  }
+
+  article header {
+    flex: 1;
+  }
+
+  article h3 {
+    margin-bottom: 4px;
+  }
+
+  article a {
+    color: #111;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  article h3 span {
+    color: rgb(0, 188, 47);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  .github-code-link {
+    margin-left: 5px;
+  }
+  
+  .placeholder {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-left: 16px;
+  }
+</style>

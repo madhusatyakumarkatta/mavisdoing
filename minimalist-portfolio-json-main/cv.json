@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Madhu Satyakumar",
-    "label": "Software Developer & Founder",
+    "label": "Software Developer & Co-Founder",
     "image": "/me.png",
     "email": "kmadhusatyakumar@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "+2 years of experience in software development and technology. Currently pursuing a B.Tech in Computer Science Engineering and building doing.com, a productivity-focused technology venture. I work across web development, backend engineering, and AI/ML, with hands-on experience building websites, Chrome extensions, data pipelines, and developer-focused solutions. Based in India.",
+    "summary": "+2 years of experience in software development and technology. Currently pursuing a B.Tech in Computer Science Engineering and building doing, a productivity-focused technology venture. I work across web development, backend engineering, and AI/ML, with hands-on experience building websites, Chrome extensions, data pipelines, and developer-focused solutions. Based in India.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,12 +34,12 @@
   },
   "work": [
     {
-      "name": "doing.com",
-      "position": "Founder",
+      "name": "doing",
+      "position": "Co-Founder",
       "url": "https://doing.com",
       "startDate": "2026-01-01",
       "endDate": null,
-      "summary": "Building doing.com, a productivity-focused technology venture designed around helping users take action rather than overthink. Responsible for product ideation, technical development, system design, and experimentation across the project.",
+      "summary": "Building doing, a productivity-focused technology venture designed around helping users take action rather than overthink. Responsible for product ideation, technical development, system design, and experimentation across the project.",
       "highlights": []
     },
     {
@@ -125,92 +125,146 @@
     {
       "name": "Python",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Languages",
+        "AI/ML",
+        "Backend"
+      ]
     },
     {
       "name": "Java",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Languages",
+        "Backend"
+      ]
     },
     {
       "name": "C",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Languages",
+        "Core"
+      ]
     },
     {
       "name": "JavaScript",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Languages",
+        "Frontend",
+        "Backend"
+      ]
     },
     {
       "name": "TypeScript",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Languages",
+        "Frontend",
+        "Backend"
+      ]
     },
     {
       "name": "HTML",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Frontend",
+        "Core"
+      ]
     },
     {
       "name": "CSS",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Frontend",
+        "Core"
+      ]
     },
     {
       "name": "React",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Frontend"
+      ]
     },
     {
       "name": "Next.js",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Frontend"
+      ]
     },
     {
       "name": "Tailwind CSS",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Frontend"
+      ]
     },
     {
       "name": "Node.js",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Backend"
+      ]
     },
     {
       "name": "MySQL",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Backend",
+        "Core"
+      ]
     },
     {
       "name": "Git",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Tools",
+        "Core"
+      ]
     },
     {
       "name": "GitHub",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Tools",
+        "Core"
+      ]
     },
     {
       "name": "Web Development",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Core",
+        "Frontend",
+        "Backend"
+      ]
     },
     {
       "name": "AI/ML",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Core",
+        "AI/ML"
+      ]
     },
     {
       "name": "Backend Development",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Core",
+        "Backend"
+      ]
     },
     {
       "name": "Data Processing",
       "level": "Advanced",
-      "keywords": []
+      "keywords": [
+        "Core",
+        "AI/ML"
+      ]
     }
   ],
   "languages": [
@@ -251,5 +305,34 @@
       "url": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers",
       "github": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers"
     }
-  ]
+  ],
+  "builds": [
+    {
+      "name": "ManoMitra",
+      "event": "SIH Hackathon 2025",
+      "description": "An early screening platform for identifying potential signs of Autism, ADHD, and other neurodevelopmental disorders. Includes a parent-friendly milestone tracker to monitor a child’s developmental progress."
+    },
+    {
+      "name": "Campus Compass",
+      "event": "Dastaan Hackathon",
+      "description": "A student-focused platform that helps students explore campus resources, connect with peers, discover clubs and events, and engage with the campus community."
+    },
+    {
+      "name": "Campus Compass",
+      "event": "Amrita Freshers’",
+      "description": "A digital onboarding platform for Amrita freshers to navigate academics, campus facilities, clubs, events, and essential resources. Designed to make the transition into college simpler and more interactive."
+    },
+    {
+      "name": "Student Council",
+      "event": "",
+      "description": "Joined the Student Council, contributing to campus initiatives, student engagement, and event coordination. Worked with fellow students to represent student interests and build a more connected campus community."
+    },
+    {
+      "name": "HACKxAmrita",
+      "event": "",
+      "description": "Organized HACKxAmrita as part of a strong team, helping participants throughout the hackathon and reviewing their ideas. Contributed to mentoring, coordination, and creating a smooth experience for participants."
+    }
+  ],
+  "research": [],
+  "upcomingProjects": []
 }

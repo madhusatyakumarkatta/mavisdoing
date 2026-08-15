@@ -1,0 +1,73 @@
+---
+import Section from "../Section.astro"
+
+import { research } from "@cv"
+---
+
+<Section title="Research" id="research">
+  <ul>
+    {
+      research && research.length > 0 ? (
+        research.map(
+          ({ title, date, description }) => {
+            return (
+              <li>
+                <article>
+                  <header>
+                    <div>
+                      <h3>{title}</h3>
+                    </div>
+                    <time>{date}</time>
+                  </header>
+                  <footer>
+                    <p>{description}</p>
+                  </footer>
+                </article>
+              </li>
+            )
+          }
+        )
+      ) : (
+        <p class="placeholder">Research updates coming soon...</p>
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+
+  footer p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  .placeholder {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+</style>
