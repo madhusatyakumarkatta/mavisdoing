@@ -28,7 +28,6 @@ This portfolio is built using modern web technologies:
 
 Some of my recent work includes:
 - **Campus Compass**: A smart student companion platform designed to help new and existing students navigate every aspect of campus life.
-- **BrailleVision**: An intelligent assistive technology pipeline that leverages hardware-accelerated computer vision and topological pattern recognition to decode tactile Braille matrixes in real-time.
 - **ManoMitra**: An early screening platform for identifying potential signs of neurodevelopmental disorders (SIH Hackathon 2025).
 
 ## 🚀 Local Development
