@@ -35,6 +35,18 @@
     padding: 0.25rem 0.75rem;
     z-index: 1000;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    
+    /* Mobile flexibility */
+    max-width: 95vw;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Hide scrollbar for the nav */
+  nav::-webkit-scrollbar {
+    display: none;
   }
 
   ul {
@@ -53,11 +65,29 @@
     transition: all 0.2s ease;
     padding: 0.2rem 0.6rem;
     border-radius: 9999px;
+    white-space: nowrap; /* Prevent text wrapping */
   }
 
   a:hover {
     color: #000;
     background: rgba(255, 255, 255, 0.6);
+  }
+
+  /* Media Queries for Mobile */
+  @media (max-width: 600px) {
+    nav {
+      padding: 0.25rem 0.5rem;
+      top: 0.75rem;
+    }
+    
+    ul {
+      gap: 0.25rem;
+    }
+    
+    a {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+    }
   }
 
   @media (prefers-color-scheme: dark) {
