@@ -304,6 +304,18 @@
       ],
       "url": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers",
       "github": "https://github.com/madhusatyakumarkatta/amritaa-campuscompassfreshers"
+    },
+    {
+      "name": "BrailleVision",
+      "isActive": true,
+      "description": "BrailleVision is an intelligent assistive technology pipeline that leverages hardware-accelerated computer vision and topological pattern recognition to decode tactile Braille matrixes in real-time.",
+      "highlights": [
+        "Assistive Technology",
+        "Computer Vision",
+        "JavaFX"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/Braillevision",
+      "github": "https://github.com/madhusatyakumarkatta/Braillevision"
     }
   ],
   "builds": [
