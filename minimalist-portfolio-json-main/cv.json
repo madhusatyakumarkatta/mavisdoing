@@ -346,5 +346,16 @@
     }
   ],
   "research": [],
-  "upcomingProjects": []
+  "upcomingProjects": [
+    {
+      "name": "Edge-AI Fall Detection",
+      "description": "Built a lightweight edge-AI fall detection system that combines human pose estimation, motion dynamics, temporal reasoning, and occlusion recovery to distinguish genuine falls from normal activities such as sitting, lying down, and sleeping.\n\nThe system is designed to remain reliable even when furniture partially occludes the person, while maintaining lightweight real-time CPU inference.\n\nResearch Question:\nHow can temporal and anatomical reasoning make vision-based fall detection robust to occlusion and false positives while remaining lightweight enough for real-time CPU inference?",
+      "highlights": [
+        "Computer Vision",
+        "Edge AI",
+        "Human Pose Estimation",
+        "Temporal Reasoning"
+      ]
+    }
+  ]
 }
