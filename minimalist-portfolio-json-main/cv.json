@@ -392,6 +392,15 @@
         "Human Pose Estimation",
         "Temporal Reasoning"
       ]
+    },
+    {
+      "name": "Mave — AI Desktop Companion",
+      "description": "Mave is a lightweight AI desktop companion designed to make AI accessible without constantly switching between applications.\n\nIt can be summoned through a mouse gesture or cursor interaction, allowing users to quickly search for information, capture ideas, save notes, and organize thoughts into projects.\n\nInstead of functioning as another standalone chatbot, Mave acts as a personal AI layer around the cursor—appearing when needed and staying out of the way otherwise.\n\nOver time, Mave builds a searchable personal memory of projects, ideas, notes, and research, creating an AI workspace that is always one small interaction away.",
+      "highlights": [
+        "AI",
+        "Desktop Applications",
+        "Personal Knowledge Management"
+      ]
     }
   ]
 }
