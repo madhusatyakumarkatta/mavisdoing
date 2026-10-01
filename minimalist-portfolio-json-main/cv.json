@@ -316,6 +316,42 @@
       ],
       "url": "https://github.com/madhusatyakumarkatta/Braillevision",
       "github": "https://github.com/madhusatyakumarkatta/Braillevision"
+    },
+    {
+      "name": "Kriti",
+      "isActive": true,
+      "description": "Android player. I'm done settling for the limitations of existing Android music players.",
+      "highlights": [
+        "Android",
+        "Music Player",
+        "Mobile App"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/kriti",
+      "github": "https://github.com/madhusatyakumarkatta/kriti"
+    },
+    {
+      "name": "doing",
+      "isActive": true,
+      "description": "A productivity-focused technology venture designed around helping users take action rather than overthink.",
+      "highlights": [
+        "Productivity",
+        "System Design",
+        "Web App"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/doing",
+      "github": "https://github.com/madhusatyakumarkatta/doing"
+    },
+    {
+      "name": "BYTEMINDS",
+      "isActive": true,
+      "description": "A smart search tool that helps Indian construction professionals — engineers, contractors, and MSMEs — instantly find the right BIS/IS codes. Search in plain language or Hindi, get compliance checks, verify if standards are still active, and auto-generate tender specs and inspection checklists.",
+      "highlights": [
+        "Smart Search Tool",
+        "Compliance Check",
+        "Construction Tech"
+      ],
+      "url": "https://github.com/mannank77/BYTEMINDS",
+      "github": "https://github.com/mannank77/BYTEMINDS"
     }
   ],
   "builds": [
