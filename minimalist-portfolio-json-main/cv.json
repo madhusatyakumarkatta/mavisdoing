@@ -356,24 +356,12 @@
     {
       "name": "CafeMeAme",
       "isActive": true,
-      "description": "webdev project",
+      "description": "A modern web application built for a cafe, featuring a dynamic menu, responsive design, and smooth user interactions. Designed to enhance the digital presence of the cafe and provide an intuitive browsing experience for customers.",
       "highlights": [
         "Web Development"
       ],
       "url": "https://github.com/madhusatyakumarkatta/CafeMeAme",
       "github": "https://github.com/madhusatyakumarkatta/CafeMeAme"
-    },
-    {
-      "name": "datastructuresandalgorithms.py",
-      "isActive": true,
-      "description": "data structures",
-      "highlights": [
-        "Python",
-        "Data Structures",
-        "Algorithms"
-      ],
-      "url": "https://github.com/madhusatyakumarkatta/datastructuresandalgorithms.py",
-      "github": "https://github.com/madhusatyakumarkatta/datastructuresandalgorithms.py"
     }
   ],
   "builds": [
