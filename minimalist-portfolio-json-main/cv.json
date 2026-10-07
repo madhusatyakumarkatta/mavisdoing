@@ -352,6 +352,28 @@
       ],
       "url": "https://github.com/mannank77/BYTEMINDS",
       "github": "https://github.com/mannank77/BYTEMINDS"
+    },
+    {
+      "name": "CafeMeAme",
+      "isActive": true,
+      "description": "webdev project",
+      "highlights": [
+        "Web Development"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/CafeMeAme",
+      "github": "https://github.com/madhusatyakumarkatta/CafeMeAme"
+    },
+    {
+      "name": "datastructuresandalgorithms.py",
+      "isActive": true,
+      "description": "data structures",
+      "highlights": [
+        "Python",
+        "Data Structures",
+        "Algorithms"
+      ],
+      "url": "https://github.com/madhusatyakumarkatta/datastructuresandalgorithms.py",
+      "github": "https://github.com/madhusatyakumarkatta/datastructuresandalgorithms.py"
     }
   ],
   "builds": [
